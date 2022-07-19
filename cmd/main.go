@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// reading the commandline arguments
 	inputStringOfString := os.Args[1:]
 	pkg.InitiateSearchFor(inputStringOfString)
 }
